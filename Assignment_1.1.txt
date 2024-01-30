@@ -1,0 +1,159 @@
+
+	Find and read 20 interview questions for Data Types, Operators, Conditional Statements, Looping Statements, Functions.
+****************************************************************************************************************************************
+
+		
+**Data types questions**
+
+1. What are tuples?
+Ans:
+    Tuples are a sequence data type with immutable values in Python. Commas separate the values in a tuple.
+
+2. What does immutable mean and what three types of Python core data types are considered immutable?
+Ans: 
+    An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category. 
+    Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+
+3. What does sequence mean and which three types of data fall into this category?
+Ans:
+    A sequence data type is a collection of objects ordered by a specific position. In Python, Strings, lists, and tuples are the data types based on
+    sequences. The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+
+4. Python is an interpreted language. Explain?
+Ans:
+    An interpreted language is any programming language that executes its statements line by line. Programs written in Python run directly from the 
+    source code, with no intermediary compilation step.
+
+5. What are Python Modules?
+Ans:
+    Files containing Python codes are referred to as Python Modules. This code can either be classes, functions, or variables and saves the programmer 
+    time by providing the predefined functionalities when needed. It is a file with “.py” extension containing an executable code.
+
+    Commonly used built modules are listed below:
+
+    * os
+    * sys
+    * data time
+    * math
+    * random
+    * JSON
+    
+
+**Operators**
+
+1. How many operators in Python?
+Ans:
+    In Python, there are seven different types of operators:
+
+    Arithmetic operators.
+    Assignment operators.
+    Comparison operators.
+    Logical operators.
+    Identity operators.
+    Membership operators.
+    Bitwise operators.
+
+
+2. What is the '%' operator in Python?
+Ans:
+    Image result for interview questions on Operators in python
+    The % symbol in Python is called the Modulo Operator. It returns the remainder of dividing the left hand operand by right hand operand. 
+    It's used to get the remainder of a division problem.
+
+
+3. What is the main function of Arithmetic operator?
+Ans:
+    Arithmetic Operators are used to perform mathematical calculations. Assignment Operators are used to assign a value to a 
+    property or variable. Assignment Operators can be numeric, date, system, time, or text. Comparison Operators are used to perform comparisons.
+
+
+4. Which Boolean operator has the highest priority?
+Ans:
+    The order of operations for Boolean algebra, from highest to lowest priority is NOT, then AND, then OR.
+
+
+**Conditional Statements**
+
+1. What is pass in Python?
+Ans:
+    Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a 
+    blank left and nothing has to be written there.
+
+2. What Does The Continue Do In Python? 
+Ans:
+    The continue is a jump statement in Python which moves the control to execute the next iteration in a loop leaving all the remaining instructions 
+    in the block unexecuted. The continue statement is applicable for both the “while” and “for” loops.
+
+
+3. When Should You Use The “Break” In Python? 
+Ans:
+    Python provides a break statement to exit from a loop. Whenever the break hits in the code, the control of the program immediately exits from the 
+    body of the loop. The break statement in a nested loop causes the control to exit from the inner iterative block.
+
+
+4. What Is The Difference Between Pass And Continue In Python? 
+Ans:
+    The continue statement makes the loop to resume from the next iteration.
+    On the contrary, the pass statement instructs to do nothing, and the remainder of the code executes as usual.
+
+
+**Looping Statements**
+
+1. What Is A Built-In Function That Python Uses To Iterate Over A Number Sequence?
+Ans:
+    Range() generates a list of numbers, which is used to iterate over for loops.
+
+    The range() function accompanies two sets of parameters.
+
+    range(stop)
+    stop: It is the no. of integers to generate and starts from zero. eg. range(3) == [0, 1, 2].
+    range([start], stop[, step])
+    Start: It is the starting no. of the sequence.
+    Stop: It specifies the upper limit of the sequence.
+    Step: It is the incrementing factor for generating the sequence.
+
+
+2. How does For loop and While loop differ in Python and when do you choose to use them?
+Ans:
+    For loop is generally used to iterate through the elements of various collection types such as List, Tuple, Set, and Dictionary.
+
+    While loop is the actual looping feature that is used in any other programming language. This is how Python differs in handling loops from the other programming languages.
+
+
+**Functions**
+
+1. What are functions in Python?
+Ans:
+    A function is a segment of code that runs only when it is called. The “def” keyword is utilized to define a specific function, as exemplified below:
+
+    def my_function():
+        print("Hi, Welcome to Intellipaat")
+    my_function()  # call to the function
+
+    Output:
+    Hi, Welcome to Intellipaat
+
+2. What is lambda in Python?
+Ans:
+    anonymous function means that a function is without a name. As we already know that def keyword is used to define the normal functions and the lambda 
+    keyword is used to create anonymous functions.
+
+
+3. Mention what are the rules for local and global variables in Python?
+Ans:
+    Local variables: If a variable is assigned a new value anywhere within the function's body, it's assumed to be local.
+    Global variables: Those variables that are only referenced inside a function are implicitly global.
+
+
+3. Mention the use of the split function in Python?
+Ans:
+    The use of the split function in Python is that it breaks a string into shorter strings using the defined separator. It gives a list of all 
+    words present in the string.
+
+
+4. What is *args and **kwargs?
+Ans:
+    *args is used when the programmer is not sure about how many arguments are going to be passed to a function, or if the programmer is 
+    expecting a list or a tuple as argument to the function.
+
+    **kwargs is used when a dictionary (keyword arguments) is expected as an argument to the function.
